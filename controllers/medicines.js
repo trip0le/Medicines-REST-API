@@ -16,7 +16,7 @@ const medicine = req.body;
 
 medicines.push({ ...medicine, id: uuidv4() });
 
-res.send(`User with the model-name ${medicine.model_name} added to the database`);
+res.send(`User with the model-name ${medicine.brand_name} added to the database`);
 }
 
 
